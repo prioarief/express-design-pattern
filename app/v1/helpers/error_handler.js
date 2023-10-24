@@ -1,4 +1,3 @@
-const sentry = require('../../../configs/sentry');
 const response = require('./response');
 
 module.exports = (error, request, res, next) => {
